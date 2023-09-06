@@ -26,7 +26,7 @@ function onHandleClick(){
             réponse = "${value1}{value2}"
             break;
     }
-
+    //
     const texteSolution = document.getElementById('solution');
     texteSolution.textContent = `${value1} ${operateur} ${value2} = ${réponse}`;
 }
